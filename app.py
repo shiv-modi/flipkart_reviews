@@ -104,7 +104,7 @@ try :
                                   json.dump(reviews , f)
 
 
-                    uri = "mongodb+srv://king:9Zu2Bf0I5l94988M@cluster0.mlnfd7c.mongodb.net/?retryWrites=true&w=majority"
+                    uri = "mongo_db_url"
 
                     # Create a new client and connect to the server
                     client = MongoClient(uri)
